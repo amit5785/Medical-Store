@@ -1,0 +1,49 @@
+.brandname{
+  display:flex;
+  flex-direction:row;
+  margin-left:-10px ;
+}
+
+.brandname img{
+  height: 12vh;
+  width: 12vw;
+}
+
+.brandname span{
+  margin: 2vh 0 0 -4.5vw;
+  font-family: yellowtail,cursive,regular ;
+  font-size:1.2rem;
+  padding: 10px 0 0 0 ;
+}
+
+
+@media only screen and (max-width : 320px)
+{
+  .togglebutton{
+    /* height: 8vh ; */
+    /* width: 10vw; */
+    /* padding: 2vh 2vw; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    padding: 1vh 2vw;
+  }
+  
+  .togglebutton span{
+    height: 6vh ;
+    width: 8vw;
+  }
+
+  .brandname span{
+    margin: 1vh 0 0 -4.5vw;
+    font-family: yellowtail,cursive,regular ;
+    font-size:1rem;
+    padding: 10px 0 0 0 ;
+  }
+
+  .brandname img{
+    height: 10vh;
+    width: 12vw;
+  }
+  
+}

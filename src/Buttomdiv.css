@@ -1,0 +1,69 @@
+#my-button-div{
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(33,37,41);
+}
+
+.shopname{
+  font-family:yellowtail;
+  font-size:1.5rem;
+}
+
+.justify-content-center h1{
+  font-family: yellowtail;
+  color: wheat;
+}
+
+@media only screen and (max-width : 1000px)
+{
+  #my-button-div{
+    height: 120vh;
+    width: 100%;
+    background-color: rgba(33,37,41);
+  }
+}
+
+@media only screen and (max-width : 600px)
+{
+  #my-button-div{
+    height: 150vh;
+    width: 100%;
+    background-color: rgb(33 37 41);
+  }
+}
+
+@media only screen and (max-width : 480px)
+{
+  #my-button-div{
+    height: 150vh;
+    width: 100%;
+    background-color: rgb(33 37 41);
+  }
+
+  
+}
+
+@media only screen and (max-width : 350px)
+{
+  #my-button-div{
+    height: 200vh;
+    width: 100%;
+    background-color: rgb(33 37 41);
+  }
+
+  .shopname{
+    font-family:yellowtail;
+    font-size:1.1rem;
+  }
+
+  .justify-content-center h1{
+    font-family: yellowtail;
+    color: wheat;
+    font-size: 1.1rem;
+    padding: 0%;
+  }
+
+  .text-center h1{
+    font-size: 1.1rem;
+  }
+}
