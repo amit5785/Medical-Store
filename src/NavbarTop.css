@@ -2,6 +2,7 @@
   display:flex;
   flex-direction:row;
   margin-left:-10px ;
+  text-decoration: none;
 }
 
 .brandname img{
@@ -9,11 +10,19 @@
   width: 12vw;
 }
 
+#nav-bar-collapse{
+  /* background-color: rgb(92, 124, 124); */
+  text-align: center;
+}
+
+
+
 .brandname span{
-  margin: 2vh 0 0 -4.5vw;
+  margin: 1.5vh 0 0 -4.5vw;
   font-family: yellowtail,cursive,regular ;
-  font-size:1.2rem;
+  font-size:1.5rem;
   padding: 10px 0 0 0 ;
+  color: aliceblue;
 }
 
 
@@ -35,10 +44,11 @@
   }
 
   .brandname span{
-    margin: 1vh 0 0 -4.5vw;
-    font-family: yellowtail,cursive,regular ;
-    font-size:1rem;
-    padding: 10px 0 0 0 ;
+    margin: 1.5vh 0 0 -4.5vw;
+  font-family: yellowtail,regular ;
+  font-size:1rem;
+  padding: 10px 0 0 0 ;
+  color: aliceblue;
   }
 
   .brandname img{
