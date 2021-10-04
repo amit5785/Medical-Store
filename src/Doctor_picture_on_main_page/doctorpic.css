@@ -1,0 +1,61 @@
+#doctorpic-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  /* border: 5px double rgb(135, 135, 226); */
+  box-shadow: 2px 2px 5px rgb(114, 109, 109);
+  border-radius: 25%;
+
+  height: 50vh;
+  width: 25vw;
+  margin: 2px 3px;
+
+}
+
+
+
+#doctorpic-img{
+  height: 44vh;
+  width: 20vw;
+  border-radius: 25%;
+}
+
+
+#doctorpic-caption{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: auto;
+  
+}
+
+
+.doctor-photo-link{
+  text-decoration: none;
+  color:black;
+  font-weight: 500;
+  opacity: 1;
+  font-size:1.5rem;
+}
+
+@media only screen and (max-width : 400px){
+  #doctorpic-container{
+    height: 35vh;
+    width: 60vw;
+  }
+  
+  #doctorpic-img{
+    height: 32vh;
+    width: 55vw;
+  }   
+
+  .doctor-photo-link{
+    font-size:1rem;
+    font-weight: 500;
+  }
+}

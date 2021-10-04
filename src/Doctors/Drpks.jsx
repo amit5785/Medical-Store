@@ -12,7 +12,7 @@ const Drpks =()=>
       specialisation='Phycisian & Surcery'
       exprience='Residence doctor at Pulse Hospital Gorakhpur'
       practise='Shukla Health Chikitasalay,Vijaypur-Road Bhorey'
-      email='prashantshukla@gmail.com'
+      email='amitkumarsingh5785@gmail.com'
       phone='+917829198030'
        />
     </>
