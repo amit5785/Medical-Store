@@ -1,0 +1,14 @@
+.chemist-title {
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.chemist-title h2{
+  font-family:yellowtail;
+  font-size:3rem;
+  color: rgb(190, 138, 42);
+}

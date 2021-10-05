@@ -1,5 +1,5 @@
 import React from "react";
-import Frame from "../Frame";
+import Frame from "../Info_Frame/Frame";
 import sks from './sks1.png'
 const Sks =()=>
 {

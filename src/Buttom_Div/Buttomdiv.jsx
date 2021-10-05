@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Image,Card,Row,Col} from 'react-bootstrap'
+import {Card,Row,Col} from 'react-bootstrap'
 import medicalstoresign from './image.png'
 import {IoLogoTwitter} from 'react-icons/io'
 import {FaFacebookSquare} from 'react-icons/fa'

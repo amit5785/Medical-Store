@@ -1,4 +1,4 @@
-.doctors-info{
+.director-info{
   margin-top: 4vh;
   display: flex;
   flex-direction: column;
@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.info-image{
+.director-image{
   height: 55vh;
   width: 27vw;
   border-radius: 25%;
@@ -20,7 +20,7 @@
   box-shadow: 2px 2px 5px red;
 }
 
-.info-image img{
+.director-image img{
   height: 50vh;
   width: 25vw;
   border-radius: 25%;
@@ -29,22 +29,13 @@
 
 @media only screen and (max-width : 450px)
 {
-  .info-image img{
+  .director-image img{
     height: 35vh;
     width: 50vw;
-    border-radius: 25%;
   }
 
-  .info-image{
+  .director-image{
     height: 38vh;
     width: 58vw;
-    border-radius: 25%;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    border: 2px double blue ;
-    box-shadow: 2px 2px 5px red;
   }
 }

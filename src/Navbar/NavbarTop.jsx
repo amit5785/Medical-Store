@@ -12,21 +12,21 @@ const NavbarTop =()=>{
          <Link to='/' className='brandname'>
           <img src={logoimg} alt='S' />
           <span>hukla Health Chikitasalay</span>
-          </Link>
+         </Link>
         </Navbar.Brand> 
         <Navbar.Toggle aria-controls='#nav-bar-collapse' className='togglebutton'></Navbar.Toggle>
         <Navbar.Collapse id='nav-bar-collapse' className='justify-content-lg-end justify-content-md-end justify-content-sm-end ' >
           <Nav >
            <Link  to='/' className='nav-link'>Home</Link>
-           <Link className='nav-link' to='/' >About Us</Link >
+           <Link className='nav-link' to='/director' >Director</Link >
             <NavDropdown drop='down' title='Doctores' >
-              <NavDropdown.Item href="#1">Dr. RajNarayan Ray </NavDropdown.Item>
+              <NavDropdown.Item href="/raj-narayan-ray">Dr.(Capt.) RajNarayan Ray </NavDropdown.Item>
               <NavDropdown.Item ><Link to='/prashant-kumar-shukla' style={{textDecoration:'none',color:'black'}}>Dr. Prashant Kumar Shukla </Link></NavDropdown.Item>
-              <NavDropdown.Item href="#3">Dr. Ikbal Alfi </NavDropdown.Item>
+              <NavDropdown.Item href="/ikbal_alafi">Dr. Ikbal Alfi </NavDropdown.Item>
             </NavDropdown>
            <Link className='nav-link' to='/sushant-kumar-shukla' >Chemist</Link >
-           <Link className='nav-link' href='#' >Contact Us</Link >
-           <Link className='nav-link' href='#' >Developer</Link>
+           <a className='nav-link' href='#' >Contact Us</a>
+           <a className='nav-link' href='#' >Developer</a>
           </Nav>
         </Navbar.Collapse>
       </Container>

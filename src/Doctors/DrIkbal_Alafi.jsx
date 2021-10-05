@@ -1,16 +1,16 @@
 import React from "react";
 import Frame from "../Info_Frame/Frame";
 import pks from './dr.pks1.png'
-const Drpks =()=>
+const Drikbal_Alafi =()=>
 {
   return(
     <>
       <Frame 
       image={pks} 
-      name='Dr. Prashant Kumar Shukla'
-      degree='MBBS'
-      specialisation='Phycisian & Surcery'
-      exprience='Residence doctor at Pulse Hospital Gorakhpur'
+      name='Dr. Ikbal Alafi'
+      degree='M.B.B.S (Kol)'
+      specialisation='Skin'
+      exprience='Ex-Senior Doctor at  Gorakhpur (U.P)'
       practise='Shukla Health Chikitasalay,Vijaypur-Road Bhorey'
       email='amitkumarsingh5785@gmail.com'
       phone='+917829198030'
@@ -19,4 +19,4 @@ const Drpks =()=>
   );
 }
 
-export default Drpks;
+export default Drikbal_Alafi;

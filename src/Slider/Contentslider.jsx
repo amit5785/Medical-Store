@@ -1,11 +1,9 @@
 import React from 'react'
 import {Carousel} from 'react-bootstrap'
-import img1 from './img-1.jpg'
-import img2 from './img-2.jpg'
 import './Contentslider.css'
-import doctor1 from './Doctors/dr.pks1.png'
-import doctor2 from './Doctors/dr.pks2.png'
-import doctor3 from './Doctors/sks1.png'
+import doctor1 from '../Doctors/dr.pks1.png'
+import doctor2 from '../Doctors/dr.pks2.png'
+import doctor3 from '../Chemist/sks1.png'
 const Contentslider=()=>{
   return (
     <>
@@ -44,7 +42,7 @@ const Contentslider=()=>{
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-
+ 
 </>
 );
 }

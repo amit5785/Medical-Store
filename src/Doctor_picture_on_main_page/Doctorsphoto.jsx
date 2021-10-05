@@ -2,8 +2,6 @@ import React from 'react'
 import {Row,Col} from 'react-bootstrap';
 import doctor1 from '../Doctors/dr.pks1.png'
 import doctor2 from '../Doctors/dr.pks2.png'
-import doctor3 from '../Doctors/sks1.png'
-import {Link} from 'react-router-dom'
 import Doctorpic from './Doctorpic';
 import './doctorphoto.css'
 const DoctorsPhoto=()=>{
@@ -19,13 +17,13 @@ const DoctorsPhoto=()=>{
       </Row>
       <Row className='mb-1 doctor-row'>
       <Col lg={4} md={4} sm={4} xs={12}   className='mt-2'>
-      <Doctorpic image={doctor2} name="Dr. Prashant Kumar Shukla" degree="B.M.A.S" url="/prashant-kumar-shukla"/>
+      <Doctorpic image={doctor1} name="Dr. Prashant Kumar Shukla" degree="B.M.A.S" url="/prashant-kumar-shukla"/>
       </Col>
       <Col lg={4} md={4} sm={4} xs={12}   className='mt-2'>
       <Doctorpic image={doctor2} name="Dr. Prashant Kumar Shukla" degree="B.M.A.S" url="/prashant-kumar-shukla"/>
       </Col>
       <Col lg={4} md={4} sm={4} xs={12}   className='mt-2'>
-      <Doctorpic image={doctor2} name="Dr. Prashant Kumar Shukla" degree="B.M.A.S" url="/prashant-kumar-shukla"/>
+      <Doctorpic image={doctor1} name="Dr. Prashant Kumar Shukla" degree="B.M.A.S" url="/prashant-kumar-shukla"/>
       </Col>
       </Row> 
     </>
